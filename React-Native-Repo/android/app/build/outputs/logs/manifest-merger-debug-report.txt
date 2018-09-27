@@ -1,0 +1,258 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-vector-icons] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/35605825e4dcdd885f9530372bcc11e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/2e734954aef8bd3bd89d8e1ee40e003a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/5d361bf2ed90698d4115908b98e3bd54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/47b24cebe3b9df4c97132d5ff69aac0c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/34a9aea0b23d83fe1440f04f1f99750a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/af17c239fe2486c02aaad490749ac04a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6779d15a1c6618aae0e609bc36167940/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/17c89eafa416b2f68cc4fc3cb7a925eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6cb202e29bb7f3afc0a36c99e1bde0fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b243c2c067267051915b616421320e42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d72cb36d5e0475fc06536d72aea07c1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/966c88e2b927a93eff3ef6660b15fa9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d994ddb60c320286d22dd2b9f6b526d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/79d129e6224b14aa11245af975b639d9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/329be7cb7b8766ccb295c395f7d0e5c9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/be2ab93f2d947673809970518debb7eb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/2c59ce1accde2b52492faa3e31b13903/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b075f09fd10d6b8ab4b478e809fde686/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ca099c5e449c96166a5529a638c8a8c0/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/473d61d6fa5d4196aac6229d43b7dbad/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/43d719cf9c51fa43f17008ef4b3f4ea6/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/431bfc504263d00a3fb1fde58eee5887/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d8297628fea49cbf680b779ad4187e9e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f7e13c3b0a8ca0a9b99f93026a480a8b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/3894ad5a9adb5f1b56dad405c1dafcb0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/fb33525cd1bd5786c25cb3bb5b7db6d9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/5926806621f4c52191faa587f126a2e7/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/42b40aef8acc62bb00b3b64eb064bda5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8288a3d59769cdb6c2cd3318323d1eed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/5fca28c3cd70e52a4d92cce3d2e6a484/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:2:5-32
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:5:5-65
+MERGED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:9:5-77
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:9:22-75
+application
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:11:5-28:19
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/2e734954aef8bd3bd89d8e1ee40e003a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/2e734954aef8bd3bd89d8e1ee40e003a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/47b24cebe3b9df4c97132d5ff69aac0c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/47b24cebe3b9df4c97132d5ff69aac0c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/34a9aea0b23d83fe1440f04f1f99750a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/34a9aea0b23d83fe1440f04f1f99750a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ca099c5e449c96166a5529a638c8a8c0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ca099c5e449c96166a5529a638c8a8c0/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/473d61d6fa5d4196aac6229d43b7dbad/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/473d61d6fa5d4196aac6229d43b7dbad/AndroidManifest.xml:2:3-17
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/43d719cf9c51fa43f17008ef4b3f4ea6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/43d719cf9c51fa43f17008ef4b3f4ea6/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/3894ad5a9adb5f1b56dad405c1dafcb0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/3894ad5a9adb5f1b56dad405c1dafcb0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/fb33525cd1bd5786c25cb3bb5b7db6d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/fb33525cd1bd5786c25cb3bb5b7db6d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/5926806621f4c52191faa587f126a2e7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/5926806621f4c52191faa587f126a2e7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/5fca28c3cd70e52a4d92cce3d2e6a484/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/5fca28c3cd70e52a4d92cce3d2e6a484/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:13:7-39
+	android:icon
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:14:7-41
+	android:allowBackup
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:12:7-38
+activity#com.fitnesssecond.MainActivity
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:17:7-26:18
+	android:label
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:19:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:18:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:27:17-81
+uses-sdk
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/35605825e4dcdd885f9530372bcc11e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/35605825e4dcdd885f9530372bcc11e9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/2e734954aef8bd3bd89d8e1ee40e003a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/2e734954aef8bd3bd89d8e1ee40e003a/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/5d361bf2ed90698d4115908b98e3bd54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/5d361bf2ed90698d4115908b98e3bd54/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/47b24cebe3b9df4c97132d5ff69aac0c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/47b24cebe3b9df4c97132d5ff69aac0c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/34a9aea0b23d83fe1440f04f1f99750a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/34a9aea0b23d83fe1440f04f1f99750a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/af17c239fe2486c02aaad490749ac04a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/af17c239fe2486c02aaad490749ac04a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6779d15a1c6618aae0e609bc36167940/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6779d15a1c6618aae0e609bc36167940/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/17c89eafa416b2f68cc4fc3cb7a925eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/17c89eafa416b2f68cc4fc3cb7a925eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6cb202e29bb7f3afc0a36c99e1bde0fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6cb202e29bb7f3afc0a36c99e1bde0fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b243c2c067267051915b616421320e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/b243c2c067267051915b616421320e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d72cb36d5e0475fc06536d72aea07c1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d72cb36d5e0475fc06536d72aea07c1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/966c88e2b927a93eff3ef6660b15fa9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/966c88e2b927a93eff3ef6660b15fa9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d994ddb60c320286d22dd2b9f6b526d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d994ddb60c320286d22dd2b9f6b526d7/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/79d129e6224b14aa11245af975b639d9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/79d129e6224b14aa11245af975b639d9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/329be7cb7b8766ccb295c395f7d0e5c9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/329be7cb7b8766ccb295c395f7d0e5c9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/be2ab93f2d947673809970518debb7eb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/be2ab93f2d947673809970518debb7eb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/2c59ce1accde2b52492faa3e31b13903/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/2c59ce1accde2b52492faa3e31b13903/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b075f09fd10d6b8ab4b478e809fde686/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b075f09fd10d6b8ab4b478e809fde686/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ca099c5e449c96166a5529a638c8a8c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/ca099c5e449c96166a5529a638c8a8c0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/43d719cf9c51fa43f17008ef4b3f4ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/43d719cf9c51fa43f17008ef4b3f4ea6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/431bfc504263d00a3fb1fde58eee5887/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/431bfc504263d00a3fb1fde58eee5887/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d8297628fea49cbf680b779ad4187e9e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d8297628fea49cbf680b779ad4187e9e/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f7e13c3b0a8ca0a9b99f93026a480a8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/f7e13c3b0a8ca0a9b99f93026a480a8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/3894ad5a9adb5f1b56dad405c1dafcb0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/3894ad5a9adb5f1b56dad405c1dafcb0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/fb33525cd1bd5786c25cb3bb5b7db6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/fb33525cd1bd5786c25cb3bb5b7db6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/5926806621f4c52191faa587f126a2e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/5926806621f4c52191faa587f126a2e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/42b40aef8acc62bb00b3b64eb064bda5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/42b40aef8acc62bb00b3b64eb064bda5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8288a3d59769cdb6c2cd3318323d1eed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/8288a3d59769cdb6c2cd3318323d1eed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/5fca28c3cd70e52a4d92cce3d2e6a484/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/5fca28c3cd70e52a4d92cce3d2e6a484/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-57
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
