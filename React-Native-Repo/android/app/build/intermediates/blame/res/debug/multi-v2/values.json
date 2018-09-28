@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6cb202e29bb7f3afc0a36c99e1bde0fa/res/values/values.xml",
@@ -78,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ranrubin/WebstormProjects/FitnessSecond/node_modules/react-native-camera/android/build/intermediates/packaged_res/debug/values/values.xml",
+                    "source": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/node_modules/react-native-camera/android/build/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
@@ -131,24 +131,26 @@
                     }
                 },
                 {
-                    "source": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/res/values/strings.xml",
+                    "source": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "1",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "50",
-                        "endOffsets": "62"
+                        "startOffsets": "54",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "177"
                     },
                     "to": {
-                        "startLines": "605",
+                        "startLines": "663",
                         "startColumns": "4",
-                        "startOffsets": "48619",
-                        "endColumns": "50",
-                        "endOffsets": "48665"
+                        "startOffsets": "54931",
+                        "endLines": "665",
+                        "endColumns": "12",
+                        "endOffsets": "55054"
                     }
                 },
                 {
-                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/9848a4fe7f9569b1d52651b3f866ff15/res/values/values.xml",
+                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/react-native-0.57.1.aar/b315b9962f54698aba39a9863b311d80/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,41,44,47,50,53,57,61,64,67,70,73,74,75,82,89,92,95,98,104",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -167,22 +169,20 @@
                     }
                 },
                 {
-                    "source": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "177"
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
                     },
                     "to": {
-                        "startLines": "663",
+                        "startLines": "605",
                         "startColumns": "4",
-                        "startOffsets": "54931",
-                        "endLines": "665",
-                        "endColumns": "12",
-                        "endOffsets": "55054"
+                        "startOffsets": "48619",
+                        "endColumns": "50",
+                        "endOffsets": "48665"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/res/values-fr-rCA/values.xml",

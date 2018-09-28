@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d994ddb60c320286d22dd2b9f6b526d7/res/values-ja/values-ja.xml",
