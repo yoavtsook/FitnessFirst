@@ -132,7 +132,6 @@ public final class R {
         public static final int blocking = 0x7f070026;
         public static final int bottom = 0x7f070027;
         public static final int cancel_action = 0x7f070029;
-        public static final int center = 0x7f07002b;
         public static final int chronometer = 0x7f070031;
         public static final int dark = 0x7f070038;
         public static final int end = 0x7f07003d;
@@ -156,7 +155,6 @@ public final class R {
         public static final int notification_main_column_container = 0x7f070065;
         public static final int off = 0x7f070066;
         public static final int on = 0x7f070067;
-        public static final int radio = 0x7f07006b;
         public static final int redEye = 0x7f07006d;
         public static final int right = 0x7f07006e;
         public static final int right_icon = 0x7f07006f;
@@ -174,7 +172,6 @@ public final class R {
         public static final int top = 0x7f0700a4;
         public static final int torch = 0x7f0700a6;
         public static final int wide = 0x7f0700ac;
-        public static final int wrap_content = 0x7f0700ae;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f080002;

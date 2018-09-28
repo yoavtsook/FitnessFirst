@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessSecond/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "/Users/ranrubin/WebstormProjects/FitnessFirst/React-Native-Repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/35605825e4dcdd885f9530372bcc11e9/res/values-pt-rPT/values-pt-rPT.xml",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/174cb1e59a063558f5ae5f038d0eb057/res/values-pt-rPT/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "203",
-                        "endOffsets": "454"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3106",
-                        "endColumns": "203",
-                        "endOffsets": "3305"
-                    }
-                },
-                {
-                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/3a0f0e4c1b640bade6202d0e5ff5107e/res/values-pt-rPT/values.xml",
+                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/7807fabe8a3761bae3cdb3996cb7cd4f/res/values-pt-rPT/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "1917,2024,2219,2349,2459,2686,2816,2968,3310,3557,3667,3868,4001,4219,4427,4525,4624",
                         "endColumns": "106,194,129,109,226,129,151,137,246,109,200,132,217,207,97,98,115",
                         "endOffsets": "2019,2214,2344,2454,2681,2811,2963,3101,3552,3662,3863,3996,4214,4422,4520,4619,4735"
+                    }
+                },
+                {
+                    "source": "/Users/ranrubin/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/4e0eb5440c256e24530ad905c431ed08/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3106",
+                        "endColumns": "203",
+                        "endOffsets": "3305"
                     }
                 },
                 {

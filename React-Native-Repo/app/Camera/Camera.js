@@ -8,6 +8,7 @@ export default class Camera extends React.Component {
     constructor(props){
         super(props);
         this.state = {
+            identifedAs: '',
             loading: false
         }
     }
@@ -29,61 +30,47 @@ export default class Camera extends React.Component {
                 base64: true
             };
 
-            // Get the base64 version of the image
-            const data = await this.camera.takePictureAsync(options);
 
-            // Get the identified image
-            // this.communicateWithLambda(data.base64);
+
+            // Get the base64 version of the image
+            const imageData = await this.camera.takePictureAsync(options)
+
+            // Send image to lambda
+            this.putImageToServer(imageData)
+            // this.identifyImage(data.base64);
         }
     };
 
-    communicateWithLambda(imageData){
+    putImageToServer(imageData){
 
-        // // Initialise Clarifai api
-        // const Clarifai = require('clarifai');
-        //
-        // const app = new Clarifai.App({
-        //     apiKey: 'YOUR KEY HERE'
-        // });
-        //
-        // // Identify the image
-        // app.models.predict(Clarifai.GENERAL_MODEL, {base64: imageData})
-        //     .then((response) => this.displayAnswer(response.outputs[0].data.concepts[0].name)
-        //         .catch((err) => alert(err))
-        //     );
+        this.setState((prevState, props) => ({
+            loading:false
+        }));
 
-        // this.camera.resumePreview();
+        this.camera.resumePreview();
 
+        return fetch('https://8wpnszhzr7.execute-api.eu-central-1.amazonaws.com/preprod', {
+            method: 'PUT',
+            headers: {
+                Accept: 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                firstParam: 'Ran',
+                secondParam: 'You made it',
+                image: imageData.base64
+            }),
+        }).then(res => res.json())
+            .then(response => console.log('Success:', JSON.stringify(response)))
+            .catch(error => console.error('Error:', error));
     }
 
-    displayAnswer(identifiedImage){
-        //
-        // // Dismiss the acitivty indicator
-        // this.setState((prevState, props) => ({
-        //     identifedAs:identifiedImage,
-        //     loading:false
-        // }));
-        //
-        // // Show an alert with the answer on
-        // Alert.alert(
-        //     this.state.identifedAs,
-        //     '',
-        //     { cancelable: false }
-        // )
-        //
-        // // Resume the preview
-        // this.camera.resumePreview();
-    }
 
     render() {
         return (
-            <RNCamera ref={ref => {this.camera = ref;}}
-                      style={styles.preview}
-                      permissionDialogTitle={'Permission to use camera'}
-                      permissionDialogMessage={'We need your permission to use your camera phone'}
-                      type={RNCamera.Constants.Type.back}
-            >
-
+            <RNCamera ref={ref => {this.camera = ref;}} style={styles.preview}>
+                <ActivityIndicator size="large" style={styles.loadingIndicator} color="#fff" animating={this.state.loading}/>
+                <CaptureButton buttonDisabled={this.state.loading} onClick={this.takePicture.bind(this)}/>
             </RNCamera>
         );
     }
@@ -103,7 +90,3 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     }
 });
-
-// {/*<ActivityIndicator size="large" style={styles.loadingIndicator} color="#fff" animating={this.state.loading}/>*/}
-// {/*<CaptureButton buttonDisabled={this.state.loading} onClick={this.takePicture.bind(this)}/>*/}
-

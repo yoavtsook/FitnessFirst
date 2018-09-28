@@ -1,25 +1,13 @@
-import React from 'react';
+import React  from 'react';
 import { StyleSheet, Button, TouchableHighlight } from 'react-native';
 
-
 export default class CaptureButton extends React.Component {
-
-
-    constructor(props){
-        super(props)
-    }
-
-    state = {
-        loading: false
-    };
-
-    render(){
-
+    render() {
         return (
             <TouchableHighlight style={styles.captureButton} disabled={this.props.buttonDisabled}>
                 <Button onPress={this.props.onClick} disabled={this.props.buttonDisabled} title="Capture" accessibilityLabel="Learn more about this button"/>
             </TouchableHighlight>
-        )
+        );
     }
 }
 

@@ -2,8 +2,7 @@ import React from "react";
 import { createRootNavigator } from "./router";
 import { isSignedIn } from "./auth";
 
-import TakePhoto from "./Camera/TakePhoto"
-import Camera2 from "./Camera/Camera2"
+import Camera from "./Camera/Camera"
 
 
 export default class App extends React.Component {
@@ -22,6 +21,7 @@ export default class App extends React.Component {
             .catch(err => alert("An error occurred"));
     }
 
+
     render() {
         const { checkedSignIn, signedIn } = this.state;
 
@@ -32,8 +32,8 @@ export default class App extends React.Component {
 
         const Layout = createRootNavigator(signedIn);
         // return <TakePhoto/>
-        // return <Camera/>
-        return <Camera2/>
+        return <Camera/>
+
         // return <Layout />;
     }
 }
