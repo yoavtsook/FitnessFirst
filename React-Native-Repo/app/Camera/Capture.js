@@ -1,4 +1,7 @@
 'use strict';
+
+const SERVER_IP = "18.185.131.164:5000"
+
 import React, { Component } from 'react';
 import {
     AppRegistry,
@@ -56,7 +59,12 @@ export default class Capture extends Component {
                         onPress={() =>{
                             this.setState(() => ({loader: true}));
                             // TODO change wait to fetch request to the server
-                            wait(3000).then(() => this.setState(() => ({showImgResponse: true})));
+                            this.takePicture().then( (dataUri) => {
+                                this.postRequestForServer(dataUri).then((res) =>
+                                { console.error("YOu R THE MAN" + res)});
+                                // this.setState(() => ({showImgResponse: true}));
+                            });
+
 
                             // this.props.backToScreen()
                             }
@@ -75,11 +83,37 @@ export default class Capture extends Component {
 
     takePicture = async function() {
         if (this.camera) {
-            const options = { quality: 0.5, base64: true };
+            const options = {base64: true };
             const data = await this.camera.takePictureAsync(options)
-            console.log(data.uri);
+            return data.uri;
         }
     };
+
+    postRequestForServer = async function(image_path) {
+
+        try {
+            console.log(">>>this is the image path for request: " + image_path);
+
+            const imageData = new FormData();
+            imageData.append('name', 'requestFromApp')
+            imageData.append('photo', {
+                uri: image_path,
+                type: 'image/jpeg',
+                name: 'ran'
+            });
+
+            return  await fetch(SERVER_IP, {
+                                        method: 'POST',
+                                        body: imageData
+                                    });
+
+
+
+        } catch (error){
+            console.error("error in put request: " + error)
+        }
+
+    }
 }
 
 const styles = StyleSheet.create({
