@@ -11,6 +11,7 @@ import AbsExercises from "./screens/AbsExercises";
 import LegsExercises from "./screens/BackExercises";
 import ShouldersExercises from "./screens/ShouldersExercises";
 import Profile from "./screens/Profile";
+import Capture from "./Camera/Capture";
 
 const headerStyle = {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
@@ -72,11 +73,12 @@ export const SignedIn = createBottomTabNavigator(
     }
 );
 
-export const createRootNavigator = (signedIn = false) => {
+export const CreateRootNavigator = (signedIn = false) => {
     return createSwitchNavigator(
         {
             SignedIn: {
                 screen: SignedIn
+
             },
             SignedOut: {
                 screen: SignedOut

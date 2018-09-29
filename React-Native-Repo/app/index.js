@@ -1,10 +1,10 @@
 import React from "react";
-import { createRootNavigator } from "./router";
+import { CreateRootNavigator } from "./router";
 import { isSignedIn } from "./auth";
 import {SignedIn} from "./router"
 
 import TakePhoto from "./Camera/TakePhoto"
-import Camera2 from "./Camera/Camera2"
+import Capture from "./Camera/Capture"
 
 
 export default class App extends React.Component {
@@ -31,11 +31,12 @@ export default class App extends React.Component {
             return null;
         }
 
-        const Layout = createRootNavigator(signedIn);
+        // const Layout = createRootNavigator(signedIn);
         // return <TakePhoto/>
         // return <Camera/>
         // return <Camera2/>
         // return <Layout />;
         return <SignedIn/>
+        // return <Capture/>
     }
 }
