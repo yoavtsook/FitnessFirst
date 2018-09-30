@@ -4,7 +4,6 @@ import { Card, Button } from "react-native-elements";
 import ExercisesData from '../data/ExercisesData'
 import Capture from '../Camera/Capture'
 import {CreateRootNavigator} from '../router'
-import Camera from "../Camera/Camera";
 import {isSignedIn} from "../auth";
 
 export default class ShouldersExercises extends React.Component

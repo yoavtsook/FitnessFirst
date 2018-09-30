@@ -1,10 +1,10 @@
 import React from "react";
+import {Image} from "react-native";
 import { CreateRootNavigator } from "./router";
 import { isSignedIn } from "./auth";
 import {SignedIn} from "./router"
 
-import TakePhoto from "./Camera/TakePhoto"
-import Capture from "./Camera/Capture"
+
 
 
 export default class App extends React.Component {

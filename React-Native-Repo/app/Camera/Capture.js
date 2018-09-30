@@ -1,11 +1,12 @@
 'use strict';
 
-const SERVER_IP = "18.185.131.164:5000"
+const SERVER_IP = "http://18.195.153.19:5000/";
+const IMG_DIR_IP = SERVER_IP + "uploads/";
+const IMG_NAME = "great.jpeg"
+const IMG_TO_GET = IMG_DIR_IP + IMG_NAME
 
 import React, { Component } from 'react';
 import {
-    AppRegistry,
-    Dimensions,
     StyleSheet,
     Text,
     TouchableOpacity,
@@ -14,9 +15,7 @@ import {
     Image
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
-import ExercisesData from "../data/ExercisesData";
-import {onSignIn} from "../auth";
-import {Button} from "react-native-elements";
+
 const wait = time => new Promise((resolve) => setTimeout(resolve, time));
 
 export default class Capture extends Component {
@@ -25,26 +24,58 @@ export default class Capture extends Component {
         super(props);
         this.state = {
             loader: false,
-            showImgResponse:false
+            showImgResponse: false,
+            showLoadingImg: false
         }
     }
 
     render() {
         if(this.state.showImgResponse){
-            // TODO add image after getting response from the server
             return(
+                //TODO: Both buttons take back to capture mode - needs to implement "back to home screen"
                 <View style={styles.container}>
-                    <Button
-                        title="back to screen"
-                        onPress={() => {
-                            this.props.backToScreen();
-                        }}
+                    <Image ref={"responseImage"}
+                           style={ styles.preview }
+                           source={{ uri: IMG_TO_GET }}
                     />
+                    <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
+                        <TouchableOpacity
+                            title="Take Again"
+                            onPress={() => {
+                                this.setState(() => ({
+                                    showImgResponse: false,
+                                    loader: false
+
+                                }));
+                            }}
+                            style = {styles.capture}
+                            >
+                            <Text style={{fontSize: 14}}> Take Again </Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity
+                            title="back to Home Screen"
+                            onPress={() => {
+                                // this.props.backToScreen();
+                                this.setState(() => ({
+                                    showImgResponse: false,
+                                    loader: false
+
+                                }));
+                            }}
+                            style = {styles.capture}
+                        >
+                            <Text style={{fontSize: 14}}> Back To Screen </Text>
+                        </TouchableOpacity>
+                    </View>
                 </View>
             )
         }
         return (
             <View style={styles.container}>
+                {this.state.showLoadingImg ? <Image
+                    style={styles.preview}
+                    source={require('../data/images/loading-image.jpg')}
+                /> :
                 <RNCamera
                     ref={ref => {
                         this.camera = ref;
@@ -53,20 +84,26 @@ export default class Capture extends Component {
                     type={RNCamera.Constants.Type.back}
                     permissionDialogTitle={'Permission to use camera'}
                     permissionDialogMessage={'We need your permission to use your camera phone'}
-                />
+                /> }
                 <View style={{flex: 0, flexDirection: 'row', justifyContent: 'center',}}>
                     <TouchableOpacity
                         onPress={() =>{
-                            this.setState(() => ({loader: true}));
-                            // TODO change wait to fetch request to the server
+                            this.setState(() => ({
+                                loader: true,
+                                // showLoadingImg: true
+                            }));
+
                             this.takePicture().then( (dataUri) => {
-                                this.postRequestForServer(dataUri).then((res) =>
-                                { console.error("YOu R THE MAN" + res)});
-                                // this.setState(() => ({showImgResponse: true}));
+                                this.setState(() => ({
+                                    showLoadingImg: true
+                                }));
+                                this.postRequestForServer(dataUri, IMG_NAME).then((response) => {
+                                        this.setState(() => ({
+                                            showLoadingImg: false,
+                                            showImgResponse: true
+                                        }));
+                                    });
                             });
-
-
-                            // this.props.backToScreen()
                             }
                         }
 
@@ -89,28 +126,35 @@ export default class Capture extends Component {
         }
     };
 
-    postRequestForServer = async function(image_path) {
+
+    postRequestForServer = async function(image_path, image_name) {
 
         try {
             console.log(">>>this is the image path for request: " + image_path);
 
             const imageData = new FormData();
             imageData.append('name', 'requestFromApp')
-            imageData.append('photo', {
+            imageData.append('file', {
                 uri: image_path,
                 type: 'image/jpeg',
-                name: 'ran'
+                name: image_name
             });
 
-            return  await fetch(SERVER_IP, {
+
+            return await fetch(SERVER_IP, {
                                         method: 'POST',
+                                        headers: {
+                                            'Accept': 'image/webp',
+                                            'Accept-Encoding': 'gzip',
+                                            'Content-Type': 'multipart/form-data',
+                                            'Enctype' : 'multipart/form-data',
+                                            'secret_key': 'postpc'
+                                        },
                                         body: imageData
                                     });
 
-
-
         } catch (error){
-            console.error("error in put request: " + error)
+            console.error("error in post request: " + error)
         }
 
     }
